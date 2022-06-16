@@ -1,0 +1,1 @@
+Cryptokey is an encapsulation for cryptographic keys in Go.
