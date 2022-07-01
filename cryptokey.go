@@ -74,7 +74,7 @@ func (c CryptoKey) Sign(digest []byte) (sig []byte, err error) {
 			return nil, err
 		}
 
-		return coze.PadCon(r, s, c.Alg.SigAlg().SigSize()), nil
+		return coze.PadInts(r, s, c.Alg.SigAlg().SigSize()), nil
 
 	case coze.Ed25519, coze.Ed25519ph:
 		v, ok := c.Private.(ed25519.PrivateKey)
