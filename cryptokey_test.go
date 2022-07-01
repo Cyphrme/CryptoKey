@@ -7,9 +7,8 @@ import (
 	"github.com/cyphrme/coze"
 )
 
-// BenchmarkNSV (New, Sign, Verify) will generate a new Crypto Key, sign a
-// message with that key. verify the signature, and return the results.  It will
-// also test verify digest.
+// BenchmarkNSV (New, Sign, Verify) will generate a new CryptoKey, sign a
+// message with that key, and verify the signature.
 // go test -bench=.
 func BenchmarkNSV(b *testing.B) {
 	var passCount = 0

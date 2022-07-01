@@ -117,7 +117,8 @@ func (c CryptoKey) Verify(digest, sig []byte) (valid bool) {
 	}
 }
 
-// SignMsg signs a pre-hash msg.  On error, returns zero bytes.
+// SignMsg signs a pre-hash msg.  Message is hashed before signing according to
+// `alg`.  On error, returns zero bytes.
 func (c CryptoKey) SignMsg(msg []byte) (sig []byte, err error) {
 	return c.Sign(coze.Hash(c.Alg.Hash(), msg))
 }
