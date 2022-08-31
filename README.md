@@ -11,7 +11,7 @@ the interface for interacting with various keys. See https://github.com/Cyphrme/
 To import Coze, Go needs the lower case string for `go get`
 
 ```
-go get github.com/cyphrme/coze@base64
+go get
 ```
 
 ## See also
