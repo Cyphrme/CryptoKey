@@ -1,8 +1,8 @@
-github.com/cyphrme/coze v0.0.0-20220519165441-5836a6c915c3 h1:LMpj4VBucnUJifLIQtckFUsaBnQIGWDUqec1otSZdGU=
-github.com/cyphrme/coze v0.0.0-20220519165441-5836a6c915c3/go.mod h1:/UxD7SCY/zdOz+YU6UkUV+TocPulmJ70pBEm/CuI3wU=
-github.com/cyphrme/coze v0.0.0-20220630211923-98cf5389cd5b h1:EA3GRoBw9XpRowD2hNrBK1ZZ89lLKtzpn5oS1sDFpg0=
-github.com/cyphrme/coze v0.0.0-20220630211923-98cf5389cd5b/go.mod h1:/UxD7SCY/zdOz+YU6UkUV+TocPulmJ70pBEm/CuI3wU=
-golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 h1:kUhD7nTDoI3fVd9G4ORWrbV5NY0liEs/Jg2pv5f+bBA=
-golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
-golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 h1:SrN+KX8Art/Sf4HNj6Zcz06G7VEz+7w9tdXTPOZ7+l4=
-golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+github.com/cyphrme/coze v0.0.0-20220831211004-8671bf055d4b h1:JpSflItModAkrOrCgws4glk50I+vMFGKzQdzOxdoVVU=
+github.com/cyphrme/coze v0.0.0-20220831211004-8671bf055d4b/go.mod h1:y7ZEwjU40iV8W45U07tN1Yty93ao3X84JUTfUL7Leq0=
+github.com/cyphrme/coze v0.0.1 h1:F6X43vCLdBtFWegcNwHVVrJhkzAGhXCnRI32XLvi5V8=
+github.com/cyphrme/coze v0.0.1/go.mod h1:y7ZEwjU40iV8W45U07tN1Yty93ao3X84JUTfUL7Leq0=
+golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90 h1:Y/gsMcFOcR+6S6f3YeMKl5g+dZMEWqcz5Czj/GWYbkM=
+golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
+golang.org/x/sys v0.0.0-20220829200755-d48e67d00261 h1:v6hYoSR9T5oet+pMXwUWkbiVqx/63mlHjefrHmxwfeY=
+golang.org/x/sys v0.0.0-20220829200755-d48e67d00261/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=

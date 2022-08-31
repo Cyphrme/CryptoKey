@@ -130,7 +130,7 @@ func (c CryptoKey) VerifyMsg(msg, sig []byte) (valid bool) {
 }
 
 // ToCryptoKey takes a Coze Key and returns a crypto key.
-func ToCryptoKey(cozekey *coze.CozeKey) (ck *CryptoKey, err error) {
+func ToCryptoKey(cozekey *coze.Key) (ck *CryptoKey, err error) {
 	if len(cozekey.X) == 0 {
 		return nil, errors.New("coze: invalid CozeKey")
 	}
@@ -145,7 +145,7 @@ func ToCryptoKey(cozekey *coze.CozeKey) (ck *CryptoKey, err error) {
 	}
 }
 
-func edDSACozeKeyToCryptoKey(ck *coze.CozeKey) (key *CryptoKey) {
+func edDSACozeKeyToCryptoKey(ck *coze.Key) (key *CryptoKey) {
 	key = new(CryptoKey)
 	key.Alg = ck.Alg
 	key.Public = crypto.PublicKey(ck.X)
@@ -157,7 +157,7 @@ func edDSACozeKeyToCryptoKey(ck *coze.CozeKey) (key *CryptoKey) {
 
 // ecdsaCozeKeyToCryptoKey converts a Coze Key, public or private, to a
 // CryptoKey.
-func ecDSACozeKeyToCryptoKey(ck *coze.CozeKey) (key *CryptoKey) {
+func ecDSACozeKeyToCryptoKey(ck *coze.Key) (key *CryptoKey) {
 	key = new(CryptoKey)
 	key.Alg = ck.Alg
 
